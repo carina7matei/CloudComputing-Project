@@ -15,11 +15,10 @@ export async function POST(request){
 
     return NextResponse.json({message:'Todo created!'},{status:201});
 }
-
-export async function GET(){
+export async function GET() {
     await connectMongoDB();
-    const todos= await Todo.find();
-    return NextResponse.json({todos});
+    const todos = await Todo.find();
+    return NextResponse.json({ todos });
 }
 
 export async function DELETE(request){
