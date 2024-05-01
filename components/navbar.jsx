@@ -4,7 +4,7 @@ export default function Navbar(){
     return (
         <nav className="flex justify-between items-center bg-purple-500 px-8 py-3">
         <Link className="text-white font-bold" href={'/'}>ToDo App</Link>
-        <Link  className="bg-white p-2" href={'/addTodo'}>Add todo</Link>
+        <Link  className=" rounded-md bg-purple-400 p-2 text-white" href={'/addTodo'}>Add todo</Link>
         </nav>
     );
 }

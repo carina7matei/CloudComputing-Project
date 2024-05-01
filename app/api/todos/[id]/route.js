@@ -15,9 +15,9 @@ export async function PUT(request,{params}){
     return NextResponse.json({message:"Todo updated!"},{status:200})
 }
 
-export async function GET(request,{paramas}){
+export async function GET(request,{params}){
     const {id}=params;
     await connectMongoDB();
     const todo=await Todo.findOne({_id:id})
-    return NextResponse.json({topic},{status:200})
+    return NextResponse.json({todo},{status:200})
 }
