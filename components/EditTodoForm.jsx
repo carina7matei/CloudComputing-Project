@@ -12,7 +12,7 @@ export default function EditTodoForm({id, title, description}){
     const handleSubmit= async (e)=>{
         e.preventDefault();
         try{
-            const res=await fetch(`http://localhost:3000/api/todos/${id}`,{
+            const res=await fetch(`/api/todos/${id}`,{
                 method:"PUT",
                 headers:{
                     "Content-type":"application/json"
