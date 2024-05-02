@@ -5,6 +5,7 @@ import {HiPencilAlt} from "react-icons/hi";
 
 const getTodos = async () => {
   const apiURL=process.env.API_URL;
+  
     try {
       const res = await fetch(`${apiURL}/api/todos`, {
         cache: "no-store",
@@ -27,7 +28,8 @@ const {todos} = await getTodos();
 return (
     <>
         {todos.map((t)=>(
-            <div  key={t._id} className="p-4  items-start border border-slate-300 my-3 gap-5 flex justify-between">
+            <div  key={t._id} 
+            className="p-4  items-start border border-slate-300 my-3 gap-5 flex justify-between">
             <div>
                 <h2 className="font-bold text-2xl">{t.title}</h2>
                 <div>{t.description}</div>
