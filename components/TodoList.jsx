@@ -4,9 +4,10 @@ import RemoveBtn from "./RemoveBtn";
 import {HiPencilAlt} from "react-icons/hi";
 
 const getTodos = async () => {
+  const apiURL=process.env.API_URL;
     try {
-      const res = await fetch("http://localhost:3000/api/todos", {
-      
+      const res = await fetch(`${apiURL}/api/todos`, {
+        cache: "no-store",
       });
   
       if (!res.ok) {
