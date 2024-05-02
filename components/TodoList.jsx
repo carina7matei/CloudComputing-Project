@@ -5,7 +5,7 @@ import {HiPencilAlt} from "react-icons/hi";
 
 const getTodos = async () => {
     try {
-      const res = await fetch("http://0.0.0.0:3000/api/todos", {
+      const res = await fetch("http://localhost:3000/api/todos", {
       
       });
   
@@ -21,9 +21,9 @@ const getTodos = async () => {
   
 
 export default async function TodoList(){
-const {todos}= await getTodos();
+const {todos} = await getTodos();
 
-    return (
+return (
     <>
         {todos.map(t=>(
             <div  key={t._id} className="p-4  items-start border border-slate-300 my-3 gap-5 flex justify-between">
