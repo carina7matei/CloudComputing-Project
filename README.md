@@ -12,18 +12,21 @@ MongoDB Atlas este o bază de date ca serviciu (DBaaS) care permite stocarea și
 
 Fig 1 [Fisier ce contine functia de conectare la mongodb]
 
-     ![image](https://github.com/carina7matei/CloudComputing-Project/assets/90403522/a55d4f9d-f654-4c8a-b8d6-261053e95c85)
+ ![image](https://github.com/carina7matei/CloudComputing-Project/assets/90403522/e671ed97-b68d-4b0f-9512-b5d1c129cb14)
+
    
 Fig 2 [Fisier ce contine schema colectiei din baza de date]
 
                      
-            ![image](https://github.com/carina7matei/CloudComputing-Project/assets/90403522/3205fc0b-8d1b-4065-8443-f50c4fec1780)
+![image](https://github.com/carina7matei/CloudComputing-Project/assets/90403522/62f5bae9-12fe-42f1-9f4b-8237bea157d4)
+
                    
 
 Fig 3 [Exemplu de request-uri catre baza de date]
 
 
-             ![image](https://github.com/carina7matei/CloudComputing-Project/assets/90403522/ad3f56e7-4c6c-4531-a855-91312c24a12f)
+ ![image](https://github.com/carina7matei/CloudComputing-Project/assets/90403522/b450a08a-afe8-40c6-bd4d-a6741627a627)
+
             
 [Exemplu de request-response de tip GET]
 b.	Netlify
