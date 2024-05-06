@@ -1,3 +1,46 @@
+
+Cloud Computing – Proiect
+
+Studenta: Matei Carina-Valeria
+Grupa: 1132
+I.	Introducere
+Aplicația de ToDo pe care am dezvoltat-o reprezintă o soluție simplă și eficientă pentru gestionarea sarcinilor zilnice. Utilizând un stack modern de tehnologii, inclusiv Next.js pentru frontend, MongoDB pentru baza de date și Netlify pentru hosting, aplicația oferă o interfață intuitivă și accesibilă de pe orice dispozitiv. Scopul acestei documentații este de a detalia arhitectura aplicației, tehnologiile folosite, precum și modul de interacțiune și utilizare a acesteia.
+II.	Descrierea tehnologiilor cloud folosite
+a.	MongoDB Atlas
+MongoDB Atlas este o bază de date ca serviciu (DBaaS) care permite stocarea și gestionarea datelor în cloud, oferind scalabilitate automată, backup automat și garanția securității datelor. În cadrul aplicației , am utilizat MongoDB Atlas pentru a stoca și interoga datele referitoare la todo-urile utilizatorilor. Beneficiind de integrare simplă cu Next.js, MongoDB Atlas asigură performanță și disponibilitate ridicată a datelor, fiind ideală pentru aplicații web moderne.
+ 
+Fig 1 [Fisier ce contine functia de conectare la mongodb]
+        
+Fig 2 [Fisier ce contine schema colectiei din baza de date]
+
+                     
+                               
+
+Fig 3 [Exemplu de request-uri catre baza de date]
+
+
+                         
+[Exemplu de request-response de tip GET]
+b.	Netlify
+Netlify este o platformă de hosting și serverless backend pentru aplicații web și site-uri statice. Este cunoscută pentru capacitatea sa de a oferi deploy continuu (CD), CDN global, cache și servicii serverless, toate acestea contribuind la îmbunătățirea performanței aplicației. În proiect, Netlify a fost folosit pentru a găzdui interfața Next.js, beneficiind de deploy automat la fiecare push în repository-ul Git, ceea ce facilitează actualizările rapide și eficiente.
+
+ 
+Fig 4 [Site-ul vazut pe Netlify odata ce a fost publicat]
+
+Cu fiecare push pe git, site-ul este publicat din nou automat, si se pot vedea toate incercarile de deploy, astfel:
+ 
+Fig 5 [Toate deploy-urile vazute din interfata oferita de Netlify]
+
+
+
+Link catre site: https://ccproject-carina.netlify.app/
+Link catre GitHub Repository: https://github.com/carina7matei/CloudComputing-Project
+Link video youtube: https://youtu.be/uMtW3iMt2Y0
+
+
+
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
